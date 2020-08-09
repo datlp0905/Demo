@@ -1,0 +1,99 @@
+#wrap-content-forum-p {
+    background-color: #FEFEDF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+    position: relative;
+}
+
+#heading-forum-p {
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    color: #1B3D2F;
+}
+
+.home-view-more-p {
+    font-family: 'Merienda One', cursive;
+    padding: 1% 2%;
+    font-size: 20px;
+    border: 1px solid #ACAC9A;
+    border-radius: 10px;
+    background-color: #FEFEDF;
+    color: #1B3D2F;
+    transition: 0.5s;
+}
+
+.home-view-more-p>i {
+    display: none;
+}
+
+.home-view-more-p:hover>i {
+    display: inline;
+}
+
+.home-view-more-p:hover {
+    background-color: #A1CCC4;
+    text-decoration: none;
+    color: #1B3D2F;
+}
+
+.pin-p {
+    width: 100px;
+    position: absolute;
+    top: -2%;
+}
+
+@media (max-width: 800px) {
+    #heading-forum-p {
+        font-size: 25px;
+    }
+    .home-view-more-p {
+        font-size: 15px;
+    }
+    .pin-p {
+        width: 75px;
+    }
+}
+
+@media (max-width: 590px) {
+    #heading-forum-p {
+        font-size: 20px;
+    }
+    .home-view-more-p {
+        font-size: 10px;
+    }
+    .pin-p {
+        width: 50px;
+    }
+}
+
+.home-gallery-p {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.gallery-item-title-p {
+    font-family: 'Andika', sans-serif;
+    font-size: 30px;
+    color: #1B3D2F;
+}
+
+.home-gallery-p:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+    text-decoration: none;
+}
+
+.home-gallery-p:hover .gallery-item-title-p {
+    font-family: 'Sriracha', cursive;
+}
+
+.gallery-item-p {
+    width: 100%;
+    height: auto;
+}
+
